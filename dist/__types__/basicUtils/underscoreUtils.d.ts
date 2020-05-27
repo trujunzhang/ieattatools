@@ -73,7 +73,7 @@ export declare class UnderscoreUtils {
     static mapJoin({ list, predicate }: {
         list: _.List<any>;
         predicate: any;
-    }): unknown[];
+    }): {}[];
     static getFieldArrayRemovedValue({ list, propertyName, removedValue }: {
         list: any;
         propertyName: any;

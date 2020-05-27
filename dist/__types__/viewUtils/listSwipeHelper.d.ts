@@ -15,8 +15,8 @@ export declare class ListSwipeHelper {
     swipedIdIsOpenCellId(swipedCellIdentifier: any): boolean;
     onRowOpen(cellIdentifier: any): void;
     onRowCloseOrPressOrScroll(closeOnRowPress: boolean): void;
-    get scrollEnabled(): boolean;
-    get rows(): any;
+    readonly scrollEnabled: boolean;
+    readonly rows: any;
     safeCloseOpenRow(): void;
     closeRow(id: any): void;
     setScrollEnabled(enable: any): void;
