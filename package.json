@@ -10,6 +10,7 @@
         "fix": "prettier --no-semi --single-quote --write '**/*.ts{,x}'",
         "build.copy.tld": "cpx \"./src/vendor/parse-domain/tld.js\" ./dist/vendor/parse-domain",
         "build:post": "yarn build.copy.tld",
+        "build:tsc": "tsc",
         "build:reset": "rm -rf dist",
         "build:clean": "yarn build:reset",
         "build:types": "rm -rf dist/__types__ && tsc --emitDeclarationOnly -p tsconfig.lib.json",
