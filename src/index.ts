@@ -12,5 +12,3 @@ export * from './webUtils'
 // Devices
 export * from './devices'
 
-// types
-export * from './types'
