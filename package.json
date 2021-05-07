@@ -36,7 +36,7 @@
         "rand-token": "0.4.0",
         "route-parser": "0.0.5",
         "slugify": "1.4.0",
-        "underscore": "1.9.2",
+        "underscore": "1.12.1",
         "validate.js": "0.13.1"
     },
     "peerDependencies": {},
